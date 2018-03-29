@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="applicationContextExmple" />
+        <module name="componentScanExample" />
+        <module name="customEventHandler" />
+        <module name="eventHandlerExample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="applicationContextExmple" target="1.5" />
+      <module name="componentScanExample" target="1.5" />
+      <module name="customEventHandler" target="1.5" />
+      <module name="eventHandlerExample" target="1.5" />
+      <module name="exampleExternalFile" target="1.5" />
+      <module name="examplei18" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
